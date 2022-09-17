@@ -1,0 +1,28 @@
+.container {
+    margin-top:10px;
+    text-align: justify;
+    width: 900px;
+    margin-left:auto;
+    margin-right:auto;
+    height:620px;
+    justify-content: center;
+}
+
+.header {
+    margin:10px;
+    /*height: 100px;*/
+    background-color: rgb(200, 216, 211);
+    width:880px;
+    float:left;
+    padding-top: 10px;
+    text-align: center;
+}
+
+p {
+    margin:10px;
+    width:880px;
+    float:left;
+    padding-top: 10px;
+    text-align: center;
+    justify-content: center
+}
