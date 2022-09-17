@@ -1,5 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin-top:0px;
+    
 }
 
 section {
@@ -10,11 +12,12 @@ section {
 header {
     display:flex;
     padding:20px;
-    background-color: rgb(0, 225, 255);
+    background-color: 12AAFF;
+    text-align: justify;    
 }
 
 .title {
-    flex:3;
+    flex:7;
 }
 
 .headermenu{
@@ -37,7 +40,7 @@ a {
 
 aside {
     flex:0;
-    background-color: rgb(0, 225, 255);
+    background-color: 12AAFF;
     padding:20px;
 }
 
@@ -48,12 +51,30 @@ article {
 
 footer {
     display:flex;
-    background-color: rgb(80, 78, 78);
+    background-color:636363;
     padding:20px;
 }
 
-@media (max-width: 500px) {
-    section {
-        flex-direction: column;
-    }
+.grande {
+    background-color:E8E8E8;
+    display:flex;
+    box-sizing:content-box;
+    flex-direction: row;
+    
 }
+
+.img {
+    flex:0;
+    padding:20px;
+}
+
+.img2 {
+    flex:0;
+    padding:20px;
+}
+
+.img3 {
+    flex:0;
+    padding:20px;
+}
+
